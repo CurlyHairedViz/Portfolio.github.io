@@ -1,0 +1,168 @@
+@media only screen and (max-width:640px) {
+  /* For mobile phones: */
+
+  body{
+    width: auto;
+  }
+
+  .heading, #title  {
+    width:auto;
+    height: auto;
+    font-size: 20vw;
+  }
+
+  #myimage{
+    width: 108.3%;
+    margin-left: -40;
+  }
+
+  #title1{
+    left: 10%;
+  }
+
+  .container{
+    width: auto;
+  }
+
+  .about{
+    width: 80%;
+    padding-left: 8%;
+  }
+  .resume{
+    top: 15;
+    width: 65%;
+  }
+  .abtimg{
+    margin-top: 10%;
+    text-align: center;
+  }
+  #imgabt{
+    width: 90%;
+  }
+
+  .caption{
+    min-width: 50%;
+    margin-left: -13%;
+  }
+  .caption span{
+
+    font-size: 40px;
+  }
+
+  #top-icon{
+    top: 90%;
+    left: 80%;
+    opacity: .8;
+  }
+
+  .prjtimg1, .prjtimg2,  .prjtimg3 {
+    display: grid;
+  }
+
+
+  #imgprjt1 {
+    width: 90%;
+    background-size: contain;
+    height: 49vw;
+  }
+  #imgprjt3{
+    width: 90%;
+    background-size: contain;
+    height: 49vw;
+    margin-top: 5%;
+  }
+
+  .prjt-div1,  .prjt-div3{
+    width: 70%;
+    margin-bottom: 5%;
+  }
+
+  #imgprjt2{
+    width: 90%;
+    left: 5%;
+   /* top: -39em;*/
+    margin-top: 5%;
+    background-size: contain;
+    height: 49vw;
+    position: absolute;
+  }
+  .prjt-div2{
+    width: 70%;
+    margin-bottom: 5%;
+    margin-top: 55%;
+  }
+
+/*  #prjttext2, #prjt-head2{
+    margin-top: 50%;
+  }
+*/
+  .languages{
+    margin-bottom: 10%;
+  }
+
+  #langtext{
+    padding-top: 20px;
+    font-size: 3vw;
+  }
+
+  #lang-div{
+    display: contents;
+    /*margin-bottom: 10%;*/
+  }
+  #lang-icon{
+    top: -10;
+    margin-right: 7%;
+
+    /*margin-left: 0;*/
+  }
+
+  #foot-text{
+    display: contents;
+    text-align: center;
+  }
+  
+  #foot-head{
+    font-size: 4em;
+  }
+
+  #foot-text1 {
+
+    /*margin-left: -70%;*/
+    font-size: 1.2em;
+    left: 0%;
+  }
+  #foot-text2 {
+
+    /*margin-left: -70%;*/
+    /*font-size: 2em;*/
+    left: 0%;
+    display: none;
+    /*transform: rotate(90deg);*/
+  }
+
+  #foot-text3 {
+
+    /*margin-left: -70%;*/
+    font-size: 3vw;
+    left: 0%;
+    margin-top: 3%;
+  }
+
+  /*#mail-link{
+    font-weight: 600;
+  }*/
+
+
+  
+
+  #foot-hr1{
+    display: revert;
+    width: 10%;
+    border: 1px solid;
+    margin-top: 2%;
+    margin-bottom: -1%;
+    opacity: .4;
+    /*margin-bottom: 5%;*/
+  }
+
+}
